@@ -6,7 +6,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Awesome"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Simple and convenient logger"
   s.description  = <<-DESC
 Simple and convenient logger and other awesome features for iOS.
