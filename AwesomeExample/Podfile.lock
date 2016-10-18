@@ -1,0 +1,16 @@
+PODS:
+  - Awesome (0.1.0)
+
+DEPENDENCIES:
+  - Awesome (from `../`)
+
+EXTERNAL SOURCES:
+  Awesome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Awesome: c9e313fa43867e5b1b99476129486a3ad595ba6e
+
+PODFILE CHECKSUM: 8566efa12932133a686ef7133ca56e3fb0435a7c
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,22 @@
+{
+  "name": "Awesome",
+  "version": "0.1.0",
+  "summary": "Simple and convenient logger",
+  "description": "Simple and convenient logger and other awesome features for iOS.",
+  "homepage": "https://github.com/macteo/Awesome",
+  "license": "MIT",
+  "authors": {
+    "Matteo Gavagnin": "m@macteo.it"
+  },
+  "social_media_url": "http://twitter.com/macteo",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/macteo/Awesome.git",
+    "tag": "v0.1.0"
+  },
+  "source_files": "**/*.{h,m}",
+  "public_header_files": "**/*.h",
+  "requires_arc": true
+}
