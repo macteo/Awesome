@@ -10,4 +10,6 @@
 
 @interface AwesomeLogger : NSObject
 
+- (void)log:(nullable NSString *)string;
+
 @end

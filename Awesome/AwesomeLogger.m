@@ -10,4 +10,8 @@
 
 @implementation AwesomeLogger
 
+- (void)log:(nullable NSString *)string {
+    NSLog(@"%@", string);
+}
+
 @end

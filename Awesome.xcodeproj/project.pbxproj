@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		95F15FEA1DB6107300DE6AB0 /* Awesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F15FE81DB6107300DE6AB0 /* Awesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F15FF21DB610F300DE6AB0 /* AwesomeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F15FF01DB610F300DE6AB0 /* AwesomeLogger.h */; };
+		95F15FF31DB610F300DE6AB0 /* AwesomeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F15FF11DB610F300DE6AB0 /* AwesomeLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95F15FE51DB6107300DE6AB0 /* Awesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Awesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F15FE81DB6107300DE6AB0 /* Awesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Awesome.h; sourceTree = "<group>"; };
 		95F15FE91DB6107300DE6AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F15FF01DB610F300DE6AB0 /* AwesomeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeLogger.h; sourceTree = "<group>"; };
+		95F15FF11DB610F300DE6AB0 /* AwesomeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				95F15FE81DB6107300DE6AB0 /* Awesome.h */,
 				95F15FE91DB6107300DE6AB0 /* Info.plist */,
+				95F15FF01DB610F300DE6AB0 /* AwesomeLogger.h */,
+				95F15FF11DB610F300DE6AB0 /* AwesomeLogger.m */,
 			);
 			path = Awesome;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F15FF21DB610F300DE6AB0 /* AwesomeLogger.h in Headers */,
 				95F15FEA1DB6107300DE6AB0 /* Awesome.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F15FF31DB610F300DE6AB0 /* AwesomeLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +245,7 @@
 		95F15FEE1DB6107300DE6AB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9S76YAVG8A;
@@ -255,6 +264,7 @@
 		95F15FEF1DB6107300DE6AB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9S76YAVG8A;
